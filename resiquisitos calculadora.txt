@@ -1,0 +1,35 @@
+4 botões dos operadores matemáticos
+Dividir 
+Multiplicar 
+Somar 
+Subtrair 
+Numeros 
+Não escrever palavras somente numeros
+Resultado =
+C 
+CE
+%
+,
+backspace
+log de operações histórico
+()
+limitar o tamanho do numero 
+limitar tamanho 
+
+
+
+objetoooooo
+let calculadora = { 
+somar:function(a,b){
+return a + b ; 
+},
+dividir:function(a,b){
+return a / b ; 
+},
+multiplicar:function(a,b){
+return a * b ; 
+},
+subtrair:function(a,b){
+return a - b ; 
+},
+}
