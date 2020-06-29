@@ -1,0 +1,114 @@
+body{
+    background: #f1e860;
+    font-family: verdana, sans-serif;
+}
+h1{
+    font-size: 40px;
+    color:#87ab03;
+    padding: 10px;
+    margin: 2px 2px 2px 2px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+}
+#calculadora{
+    width: 40%;   
+    background: #2196F3;;
+    padding: 20px;
+}
+#display{
+    padding: 5px;
+    font-size: 30px;
+    text-align: right;
+    background: #BBD;
+    margin:0;
+    
+}
+#keyboard{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 20px;
+}
+#keyboard  button {
+    padding: 20px;
+    font-size: 24px;
+}
+.rodapepg{
+    display:flex;
+    justify-content: center;
+    align-items:flex-end;
+    font-family: Arial;
+    margin: 3% 0% 0% 0%;
+    background: #87ab03;
+    width:100%;
+}
+#backspace{
+    background: #EB2B2B;
+}
+#igual{
+    background: greenyellow;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body{
+        background: #f1e860;
+        font-family: verdana, sans-serif;
+    }
+    h1{
+        font-size: 40px;
+        color:#87ab03;
+        padding: 10px;
+        margin: 2px 2px 2px 2px;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        width: 100%;
+    }
+    #calculadora{
+        width: 40%;   
+        background: #2196F3;;
+        padding: 20px;
+    }
+    #display{
+        padding: 5px;
+        font-size: 30px;
+        text-align: right;
+        background: #BBD;
+        margin:0;
+        
+    }
+    #keyboard{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 10px;
+        background-color: #2196F3;
+        padding: 20px;
+    }
+    #keyboard  button {
+        padding: 20px;
+        font-size: 24px;
+    }
+    .rodapepg{
+        display:flex;
+        justify-content: center;
+        align-items:flex-end;
+        font-family: Arial;
+        margin: 3% 0% 0% 0%;
+        background: #87ab03;
+        width:100%;
+    }
+    #backspace{
+        background: #EB2B2B;
+    }
+    #igual{
+        background: greenyellow;
+    }
+}
